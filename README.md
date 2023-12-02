@@ -1,28 +1,32 @@
-# Tag completion
+# brackets completion
+
+# Dependence
+
+- Deno
+- denops.vim
 
 # Usage
 
 ## Step1
 
 ```html
-<html>
+{
 ```
 
 ## Step2
 
-Enter `>` again after entering the tag.
+The cursor exists between the parentheses.
 
 ```html
-<html>>
+{|}
 ```
 
-## Step3
+# Supported bracket types
 
-Then, a closing tag with the same content as the entered tag is completed.
+- {}
+- []
+- ()
 
-```html
-<html></html>
-```
 
 # LICENSE
 
